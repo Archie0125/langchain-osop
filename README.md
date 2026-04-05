@@ -68,12 +68,12 @@ agent = create_react_agent(llm, tools)
 
 ## What is OSOP?
 
-OSOP is the OpenAPI of workflows — a YAML standard for defining AI agent workflows with 12 node types and 10 edge modes. See [osop.ai](https://osop.ai) for the full spec.
+OSOP is the standard format for describing and logging AI agent workflows. Core uses 4 node types (agent, api, cli, human) and 4 edge modes. See [osop.ai](https://osop.ai) for the full spec.
 
 ## Links
 
 - [OSOP Spec](https://github.com/Archie0125/osop-spec)
-- [OSOP MCP Server](https://github.com/Archie0125/osop-mcp) — 12 MCP tools
+- [OSOP MCP Server](https://github.com/Archie0125/osop-mcp) — 5 MCP tools (validate, render, report, diff, risk_assess)
 - [OSOP Interop](https://github.com/Archie0125/osop-interop) — Format converters (CrewAI, n8n, Airflow, etc.)
 - [Visual Editor](https://osop-editor.vercel.app)
 
